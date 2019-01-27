@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Create a bundle with the data
             Bundle bundle = new Bundle();
-            bundle.putString("hello", "world");
+            bundle.putString("hello", "Hi, I am in the MessengerService");
 
             // Set the bundle data to the Message
             msg.setData(bundle);

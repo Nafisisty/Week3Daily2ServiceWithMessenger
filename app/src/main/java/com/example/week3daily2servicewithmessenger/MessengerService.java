@@ -20,7 +20,7 @@ public class MessengerService extends Service {
     static final int MSG_SAY_HELLO = 1;
 
     // Messenger object used by clients to send messages to IncomingHandler
-    Messenger mMessenger = new Messenger((Handler) new TestHandler());
+    Messenger mMessenger = new Messenger((Handler) new IncomingHandler());
 
     // Incoming messages Handler
     class IncomingHandler extends Handler {
